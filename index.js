@@ -2,9 +2,9 @@
 // import initTiltEffect from "scripts/tiltAnimation";
 // import { targetElements, defaultProps } from "data/scrollRevealConfig";
 
-const {initScrollReveal} = require('scripts/scrollReveal');
-const {initTiltEffect} = require('scripts/tiltAnimation');
-const {targetElements, defaultProps} = require('data/scrollRevealConfig');
+const {initScrollReveal} = require('scripts/scrollReveal.js');
+const {initTiltEffect} = require('scripts/tiltAnimation.js');
+const {targetElements, defaultProps} = require('data/scrollRevealConfig.js');
 // const defaultProps = require('./data/scrollRevealConfig');
 
 initScrollReveal(targetElements, defaultProps);
